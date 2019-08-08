@@ -65,6 +65,19 @@
 #main #slider #carouselExampleIndicators .carousel-inner .carousel-item {
   margin-left: 25%;
 }
+#main #text {
+  margin-top: 10%;
+}
+#main #text h3 {
+  font-family: "Myriad_Pro";
+  font-size: 200%;
+}
+#main #text h4 {
+  font-family: "Myriad_Pro";
+  font-size: 150%;
+  width: 50%;
+  margin-left: 25%;
+}
 
 @media (min-width: 360px) and (max-width: 812px) {
   #main #header .row {

@@ -84,6 +84,22 @@
             }
         }
     }
+
+    #text {
+        margin-top: 10%;
+
+        h3 {
+            font-family: 'Myriad_Pro';
+            font-size: 200%;
+        }
+
+        h4 {
+            font-family: 'Myriad_Pro';
+            font-size: 150%;
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
 }
 
 @media (min-width:360px) and (max-width:812px) {
