@@ -20,6 +20,30 @@
   color: gray;
   font-size: 200%;
 }
+#main #img form {
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  width: 25%;
+  padding: 2%;
+  margin-left: 20%;
+  margin-top: 10%;
+  font-family: "Myriad_Pro";
+  font-size: 150%;
+  background: blueviolet;
+  color: white;
+}
+#main #img form input {
+  width: 90%;
+}
+#main #img form button {
+  margin-left: 10%;
+  width: 80%;
+  background: goldenrod;
+  color: black;
+}
+#main #img form .form-group {
+  margin-left: 10%;
+}
 
 @media (min-width: 360px) and (max-width: 812px) {
   #main #header .row {
