@@ -63,6 +63,27 @@
             }
         }
     }
+
+    #slider {
+        width: 100%;
+        height: 100%;
+
+        h3 {
+            margin-top: 5%;
+            color: blueviolet;
+            font-family: 'Myriad_Pro';
+            font-size: 200%;
+        }
+
+        #carouselExampleIndicators {
+            .carousel-inner {
+                .carousel-item {
+                    margin-left: 25%;
+
+                }
+            }
+        }
+    }
 }
 
 @media (min-width:360px) and (max-width:812px) {
