@@ -128,6 +128,56 @@
             }
         }
     }
+
+    #calculator {
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+
+        #part_1 {
+            font-family: 'Myriad_Pro';
+
+            h4 {
+                margin-left: 20%;
+            }
+
+            #label {
+                margin-top: 10%;
+
+                label {
+                    margin-left: 14%;
+                    font-family: 'Myriad_Pro';
+                }
+            }
+
+            .form-group {
+
+                input {
+                    width: 20%;
+                    margin-left: 5%;
+                }
+
+                h5 {
+                    margin-left: 5%;
+                    font-family: 'Myriad_Pro';
+                    color: blue;
+                }
+
+                label {
+                    h4 {
+                        transform: rotate(-90deg);
+                        transform-origin: left top 2;
+                    }
+                }
+
+                img {
+                    width: 20%;
+                    height: 20%;
+                    margin-left: 5%;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width:360px) and (max-width:812px) {

@@ -101,6 +101,42 @@
 #main #content .row .card .third {
   height: 100%;
 }
+#main #calculator {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+#main #calculator #part_1 {
+  font-family: "Myriad_Pro";
+}
+#main #calculator #part_1 h4 {
+  margin-left: 20%;
+}
+#main #calculator #part_1 #label {
+  margin-top: 10%;
+}
+#main #calculator #part_1 #label label {
+  margin-left: 14%;
+  font-family: "Myriad_Pro";
+}
+#main #calculator #part_1 .form-group input {
+  width: 20%;
+  margin-left: 5%;
+}
+#main #calculator #part_1 .form-group h5 {
+  margin-left: 5%;
+  font-family: "Myriad_Pro";
+  color: blue;
+}
+#main #calculator #part_1 .form-group label h4 {
+  transform: rotate(-90deg);
+  transform-origin: left top 2;
+}
+#main #calculator #part_1 .form-group img {
+  width: 20%;
+  height: 20%;
+  margin-left: 5%;
+}
 
 @media (min-width: 360px) and (max-width: 812px) {
   #main #header .row {
