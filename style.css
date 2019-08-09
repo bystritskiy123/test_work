@@ -95,11 +95,11 @@
   margin-top: 5%;
 }
 #main #content .row .card {
-  margin-left: 1%;
+  margin-left: 5%;
 }
 #main #content .row .card .one {
-  margin-left: 15%;
   height: 100%;
+  width: 50%;
 }
 #main #content .row .card .third {
   height: 100%;
@@ -175,13 +175,14 @@
   margin-top: 5%;
 }
 #button .row {
-  margin-left: 30%;
+  margin-left: 20%;
+  width: 100%;
 }
 #button .row button {
   font-family: "Myriad_Pro";
   font-size: 130%;
   margin-left: 7%;
-  width: 20%;
+  width: 30%;
   border-radius: 4px 4px 4px 4px;
 }
 #button .row .two {
@@ -206,6 +207,49 @@
   #main #header .row {
     margin-left: 10%;
   }
+  #main #img {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    background-size: 300%;
+  }
+  #main #img form {
+    width: 55%;
+  }
+  #main #exampleModal {
+    width: 30%;
+    height: auto;
+    margin-left: 2.5%;
+  }
+  #main #content .row {
+    margin-left: 10%;
+  }
+  #main #content .row .card {
+    width: 70%;
+  }
+  #main #calculator #part_1 h4 {
+    margin-left: 30%;
+  }
+  #main #calculator #part_1 .form-group img {
+    width: 30%;
+  }
+  #main #calculator #part_1 #input {
+    margin-left: 2%;
+  }
+  #main #calculator #part_1 #input input {
+    width: 30%;
+  }
+
+  #button .row {
+    margin-left: 7%;
+  }
+
+  #footer .ro {
+    margin-left: 30%;
+  }
+  #footer .ro h4 {
+    font-size: 120%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   #main #header .row {
@@ -215,6 +259,30 @@
 @media (min-width: 1024px) and (max-width: 1366px) {
   #main #header .row {
     margin-left: 7%;
+  }
+  #main #img {
+    background-size: 100%;
+    padding: 2%;
+  }
+  #main #img form {
+    width: 25%;
+    padding: 0%;
+  }
+  #main #content .row {
+    margin-left: 10%;
+  }
+  #main #calculator {
+    width: 92%;
+  }
+  #main #calculator #part_1 h4 {
+    margin-left: 23%;
+  }
+  #main #calculator #part_1 #input {
+    margin-left: 7%;
+  }
+
+  #button .row {
+    margin-left: 10%;
   }
 }
 
